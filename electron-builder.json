@@ -1,0 +1,23 @@
+{
+  "appId": "com.seuapp.id",
+  "productName": "Financeiro",
+  "directories": {
+    "output": "dist"
+  },
+  "asar": true,
+  "asarUnpack": [
+    "scripts/cert.p12",
+    "scripts/cli.exe",
+    "scripts/FaturaNu.exe",
+    "scripts/FaturasCartao.exe",
+    "scripts/FaturasCompletas.exe",
+    "scripts/GastosCartao.exe",
+    "scripts/TransacoesPaginadas.exe"
+  ],
+  "files": [
+    "dist/electron/**/*"
+  ],
+  "win": {
+    "icon": "src/assets/logo.ico"
+  }
+}
